@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app1-deployment
-  namespace: dev
+  name: app1
+  namespace: default
   labels:
     app: app1
 spec:
