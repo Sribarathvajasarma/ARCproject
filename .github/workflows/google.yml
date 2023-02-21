@@ -16,7 +16,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: dataplane    # Add your cluster name here.
+  GKE_CLUSTER: sample    # Add your cluster name here.
   GKE_ZONE: asia-south1-a   # Add your cluster zone here.
   DEPLOYMENT_NAME: app1 # Add your deployment name here.
   IMAGE: static-site
