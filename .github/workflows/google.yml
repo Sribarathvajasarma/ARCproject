@@ -19,6 +19,7 @@ env:
   GKE_CLUSTER: dataplane    # Add your cluster name here.
   GKE_ZONE: asia-south1-a   # Add your cluster zone here.
   DEPLOYMENT_NAME: app1-deployment # Add your deployment name here.
+  IMAGE: static-site
 
 jobs:
   setup-build-publish-deploy:
