@@ -15,7 +15,7 @@ spec:
         app: app1
     spec:
       containers:
-      - name: app1
+      - name: my-app
         image: sribarath/my-go-image1
         ports:
         - containerPort: 8080
